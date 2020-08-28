@@ -1,4 +1,5 @@
-# todo
+# MinimaList
+A simple todo app project created to learn the basics of Vue.js
 
 ## Project setup
 ```
