@@ -1,6 +1,6 @@
 <template>
-    <header class="header">
-        <h1>minimaList</h1>
+    <header class="p-3 m-0 bg-dark w-100">
+        <h1 class="text-center text-white">minimaList</h1>
     </header>
 </template>
 
@@ -10,13 +10,3 @@ export default {
 }
 </script>
 
-<style scoped>
-header{
-    margin-top: 0;
-    padding: 1em;
-    background-color: rgb(190, 190, 190);
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-</style>

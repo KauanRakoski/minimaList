@@ -1,7 +1,7 @@
 <template>
-    <form @submit="AddTodo">
-        <input type="text" v-model="title">
-        <input type="submit" value="Submit">
+    <form @submit="AddTodo" class="form-inline my-2 my-lg-0 w-100 d-flex justify-content-center">
+      <input maxlength="20" class="form-control mr-sm-1" type="search" placeholder="Search" v-model="title" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Save</button>
     </form>
 </template>
 
@@ -31,6 +31,3 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
